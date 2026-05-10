@@ -22,7 +22,7 @@ public class Main {
 
             // ── CREATE ────────────────────────────────────────────────────────
             System.out.println("=== CREATE ===");
-            addNewPatient(conn, "SSaabinaass", "SSaadykoovass", "2006-10-24", "F","Petropavl", "87-1277-759912", "sssas2@arizona.edu" );
+            addNewPatient(conn, "SSasabinaass", "SSaasdykoovass", "2006-10-24", "F","Petropavl", "87-1277-2759912", "ssfsas2@arizona.edu" );
 
             // ── READALL ────────────────────────────────────────────────────────
             System.out.println("=== READ ===");
@@ -36,12 +36,12 @@ public class Main {
 
             // ── UPDATE ────────────────────────────────────────────────────────
             System.out.println("=== UPDATE ===");
-            updatePatient(conn, 1, "Kostik", "Permin", "2007-05-29", "M","Petropavl", "87077775222", "P@arizona.edu" );
+            updatePatient(conn, 2, "Kostik", "Permin", "2007-05-29", "M","Petropavl", "87077775222", "P@arizona.edu" );
 
             // ── DELETE ────────────────────────────────────────────────────────
             System.out.println("=== DELETE ===");
-            deletePatient(conn, 1);
-            readPatientById(conn, 1);
+            deletePatient(conn, 3);
+            readPatientById(conn, 3);
 
 
         } catch (SQLException e) {
